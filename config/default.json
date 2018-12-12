@@ -1,0 +1,63 @@
+{
+   
+    "User": {
+        "firstName" : "Ahmed",
+        "lastName" : "Rajouani Alaoui",
+        "email" : "ahmed_rajouani_alaoui@yahoo.fr",
+        "phoneNumber" : "658108075",
+        "addressLine1" : "adress 1",
+        "addressLine2" : "adress 1",
+        "birthDate" :{ 
+            "day" : "05",
+            "mounth" : "02",
+            "year" : "1985"
+        
+        },
+        "zipCode" : "11000",
+        "city" : "Marrakech",
+        "region" : "Marrakech",
+        "jobTitle" : "Test",
+        "companyName" : "Test",
+        "password" : "Wunderflats",
+        "country" : "GR"
+        
+    },
+    "Page": {
+        "account" : { 
+            "url" : "https://en-master.wunderflats.xyz/my/account",
+            "title" : "Profile - Wunderflats"
+        },
+        "login" : { 
+            "url" : "https://en-master.wunderflats.xyz/login?redirect=/my/account",
+            "title" : "Login - Wunderflats"
+        },
+        "signup"  :{ 
+            "url" : "https://en-master.wunderflats.xyz/signup",
+            "title" : "Signup - Wunderflats"
+            
+        } 
+        
+    },
+    "Selector": {
+        "languageSelector" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/fieldset[1]/div/span/div/select/optgroup/option[1]",
+        "countryNumberSelector" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/fieldset[2]/div[2]/span[2]/span/div/div/div[1]/div/select/option[79]",
+        "phoneNumberSelector" : "(.//*[normalize-space(text()) and normalize-space(.)='Phone number'])[1]/following::input[2]",
+        "nationalitySelector" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/fieldset[2]/div[2]/span[2]/span/div/div/div[2]/input",
+        "birthDateSelectors" :{ 
+            "day" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/fieldset[4]/div/span/span/span/input[2]",
+            "mounth" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/fieldset[4]/div/span/span/span/input[3]",
+            "year" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/fieldset[4]/div/span/span/span/input[4]"
+        
+        },
+        "submitAccountSelector" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/button",   
+        "addressCountrySelector" : "//*[@id='addressCountry']/optgroup/option[86]",
+        "accountButtonSelector" : "//*[@id='main']/div/div/div/div/div/div[2]/div/form/button",
+        "loginButtonSelector" : "//*[@id='main']/div/div/div/div/div[1]/form[1]/button",
+        "signupCountryNumberSelector" : "//*[@id='main']/div/div/div/div/div[1]/form[2]/div[3]/span/span/div/div/div[1]/div/select/option[138]",
+        "signupPhoneNumberSelector" : "//*[@id='main']/div/div/div/div/div[1]/form[2]/div[3]/span/span/div/div/div[2]/input",
+        "signupCheckBoxSelector" : "//*[@id='main']/div/div/div/div/div[1]/form[2]/div[6]/span/label/input",
+        "signupButtonSelector" : "//*[@id='main']/div/div/div/div/div[1]/form[2]/button",
+        "countrySelectSelector" :"CustomPhoneNumberInput-country-select"
+        
+    }
+  }
